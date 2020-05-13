@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ADD PICTURESS -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/archive"
+        android:title="Test" />
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:icon="@drawable/book"
+        android:title="Books" />
+
+    <item
+        android:id="@+id/nav_search"
+        android:icon="@drawable/tips"
+        android:title="Tips" />
+
+</menu>

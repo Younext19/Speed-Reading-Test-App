@@ -27,6 +27,7 @@
         android:orientation="vertical">
 
         <TextView
+android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Books Reading"
@@ -36,6 +37,7 @@
             android:textStyle="bold"/>
 
         <TextView
+android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Reading books can help us learn, understand and makes us smarter. Not to mention the knowledge"

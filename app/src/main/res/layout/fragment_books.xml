@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".BooksFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/boklist"
+            />
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/roboto"
+            android:text="The Average Of Speed Reading Is 220WPM (Word Per Minut) Which Means If You Read Everyday 60 Min, Here Is A List Of Some
+ Books That You Can finish In A Week."
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgcardview">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/art" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+
+                            android:id="@+id/txt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title : The Art Of Not Giving A F*CK"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"/>
+                        <TextView
+
+                            android:id="@+id/txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt1"
+                            android:text="Author : Mark Manson"
+                            android:fontFamily="@font/roboto"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/txt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt2"
+                            android:text="Pages : 224 pages"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+
+                            />
+                        <TextView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt3"
+                            android:text="Words : 45,965"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:fontFamily="@font/roboto"
+                            android:textSize="19sp"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgcardview">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/richdad" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/tx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title : Rich Dad Poor Dad"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"/>
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/tx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tx1"
+                            android:text="Author : Lechter Robert T. Kiyosaki"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/tx3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tx2"
+                            android:text="Pages : 288 pages"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/tx3"
+                            android:text="Words : 61,480"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgcardview">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/thinkgrow" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/x1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title : Think And Grow Rich"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"/>
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/x2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/x1"
+                            android:text="Author : Napoleon Hill"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/x3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/x2"
+                            android:text="Pages : 202 pages"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/x3"
+                            android:text="Words : 89,175"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgcardview">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/alch" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/dx1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title : The Alchemist"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"/>
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/dx2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/dx1"
+                            android:text="Author : Paulo Coelho"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/dx3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/dx2"
+                            android:text="Pages : 208 pages"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/dx3"
+                            android:text="Words : 57,420"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        app:cardCornerRadius="50dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bgcardview">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="left"
+                        android:src="@drawable/hobbit" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/dxd1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Title : The Hobbit"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"/>
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/dxd2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/dxd1"
+                            android:text="Author : J.R.R. Tolkien"
+
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+                            android:id="@+id/dxd3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/dxd2"
+                            android:text="Pages : 320 pages"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                        <TextView
+android:fontFamily="@font/roboto"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/dxd3"
+                            android:text="Words : 96,425"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:textSize="19sp"
+                            />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

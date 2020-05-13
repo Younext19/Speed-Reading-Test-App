@@ -1,18 +1,22 @@
 <resources>
     <string name="app_name">SpeedReadingTest</string>
     <string name="title_activity_welcome">Home Screen</string>
-    <string name="next">NEXT</string>
-    <string name="skip">SKIP</string>
-    <string name="start">GOT IT</string>
-    <string name="slide_1_title">Hello Food!</string>
-    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
-    <string name="slide_2_title">Movie Tickets</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
-    <string name="slide_4_title">World Travel</string>
-    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
-    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
-    <string name="play_again">Play Again</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Large_paragraph">Reading is becoming more and more important in the
+        new knowledge economy and remains the most effective human activity for transforming
+        information into knowledge.\n
+        If top readers read at speeds of above 1000 words per minute (wpm) with near 85% comprehension,
+        they only represent 1% of readers. Average readers are the majority and only reach around 200 wpm with a typical comprehension of 60%. This seems surprising since most readers, actively reading work documents, newspapers, magazines, books or the contents of a computer display are practicing daily for at least one hour. With such an intense training everyone should be close to top performances.</string>
+    <string name="rules"> 1 - Click On Start Button To Start Testing Your Speed Reading\n
+    2 - The Result Is Not 100% True But We Did Our Best\n
+    3 - On The Books page You Can See How Much Words You Can Find On My Favorite Books\n
+    4 - Don\t Waste Time\n
+    5 - Good Luck Wish You All The Best\n
+    6 - Click On Finish Button When You Finish Reading
+    </string>
+
 </resources>
 

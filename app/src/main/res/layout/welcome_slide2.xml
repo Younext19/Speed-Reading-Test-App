@@ -27,6 +27,8 @@
         android:orientation="vertical">
 
         <TextView
+
+android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Books Importance"
@@ -37,6 +39,7 @@
             android:textStyle="bold"/>
 
         <TextView
+android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Books are important because they provide a few things that are key to an open and intelligent society."

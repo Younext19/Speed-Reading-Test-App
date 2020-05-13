@@ -27,6 +27,7 @@
         android:orientation="vertical">
 
         <TextView
+android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Speed Reading"
@@ -36,6 +37,7 @@
             android:textStyle="bold"/>
 
         <TextView
+android:fontFamily="@font/roboto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Test Your Speed Reading With Us And Let's See How Much Book You Can Read In A Week"
